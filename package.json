@@ -1,0 +1,13 @@
+{
+  "name": "my-type-challenges",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "@type-challenges/utils": "workspace:*",
+    "@types/node": "^15.0.1",
+    "typescript": "^4.2.4",
+    "utility-types": "^3.10.0"
+  }
+}
