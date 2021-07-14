@@ -1,7 +1,7 @@
 import { Equal, Expect } from '@type-challenges/utils'
 
 // my code
-type MyReturnType<T> = T extends (...args: any) => infer R ? R : any
+type MyReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any
 
 type cases = [
   Expect<Equal<string, MyReturnType<() => string>>>,
